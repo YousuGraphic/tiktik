@@ -9,7 +9,7 @@ BOT_TOKEN = '8117708405:AAElWMEFHdpvbLkH0XCNuBUMWbWKGIakWP4'
 ADMIN_ID = 5711313662
 
 # إعداد Webhook
-WEBHOOK_HOST = 'https://tiktik.onrender.com'
+WEBHOOK_HOST = 'https://tiktik-nvr5.onrender.com'
 WEBHOOK_PATH = f"/{BOT_TOKEN}/"
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 APP_PORT = int(os.environ.get("PORT", 10000))
