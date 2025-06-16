@@ -10,3 +10,11 @@ services:
       playwright install
     startCommand: |
       python tiktik.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: "8117708405:AAElWMEFHdpvbLkH0XCNuBUMWbWKGIakWP4"
+      - key: ADMIN_CHAT_ID
+        value: "5711313662"
+    resources:
+      cpu: 1
+      memoryMB: 1024
