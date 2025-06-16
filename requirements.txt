@@ -1,3 +1,4 @@
-flask
+fastapi
+uvicorn[standard]
+playwright
 pyTelegramBotAPI
-yt-dlp
